@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<title>第四節課表單與表格</title>
+<meta name="description" content="表單與表格練習">
+<meta name="keywords" content="表格,表單,製作,table">
+</head>
+
+<!-- id=判斷資料是哪個,註解：action=資料接收端的路近,method=資料傳送的方式 -->
+
+<body>
+    <form id="emtryForm" action="#" method="post">
+    <table border="1">
+        <tr>
+            <th>名字</th>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <th>信箱</th>
+            <td><input type="email" name="email"><td>
+        </tr>
+        <tr>
+            <th>手機號碼</th>
+            <td><input type="text" name="numbber"></td>
+        </tr>
+        <tr>
+            <th>所在地區</th>
+            <td>
+                <select name="area" id="">
+                <option value="selected">請選擇</option>
+                <option value="大台北地區">大台北地區擇</option>
+                <option value="北部地區">北部地區</option>
+                <option value="中部地區">中部地區</option>
+                <option value="南部部地區">南部地區</option>
+                <option value="東部地區">東部地區</option>
+                <option value="離島地區">離島地區</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>留言訊息</th>
+            <td>
+                <textarea name="message" rows="4" cols="40"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th>是否可聯絡</th>
+            <td>
+                <input type="radio" name="cell" value="否"checked>否
+                <input type="radio" name="cell" value="是">是
+            </td>
+        </tr>
+        <tr>
+            <th>可聯絡時段</th>
+            <td>
+                <input type="checkbox" name="time1" value="上午時段">上午時段
+                <input type="checkbox" name="time2" value="下午時段">下午時段
+                <input type="checkbox" name="time3" value="晚上時段">晚上時段  
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
