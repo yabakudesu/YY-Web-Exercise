@@ -14,15 +14,17 @@
     <table border="1">
         <tr>
             <th>名字</th>
-            <td><input type="text" name="name"></td>
+            <td>
+                <input type="text" name="name" placeholder="洪小姐" required>
+            </td>
         </tr>
         <tr>
             <th>信箱</th>
-            <td><input type="email" name="email"><td>
+            <td><input type="email" name="email" value=""><td>
         </tr>
         <tr>
             <th>手機號碼</th>
-            <td><input type="text" name="numbber"></td>
+            <td><input type="tel" name="tel" value=""></td>
         </tr>
         <tr>
             <th>所在地區</th>
@@ -59,7 +61,19 @@
                 <input type="checkbox" name="time3" value="晚上時段">晚上時段  
             </td>
         </tr>
+        <tr>
+            <th>附加文件</th>
+            <td>
+                <input type="file" name="文件">
+            </td>
+        </tr>
     </table>
+
+    <!--按鈕不在table表格範圍內-->
+    <div>
+        <input type="reset" value="清除欄位">
+        <input type="submit" value="送出">
+    </div>
     </form>
 </body>
 </html>
