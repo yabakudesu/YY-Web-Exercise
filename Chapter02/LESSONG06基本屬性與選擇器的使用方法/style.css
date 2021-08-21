@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/*視窗底部設定*/
+body{
+    background-color: #f5f0eb;
+}
+
+/*連結顏色設定*/
+a{
+    color: #4b5421;
+}
+
+a:hover{
+    color:#0f1725;
+}
+
+/*頁面標題設定*/
+h1{
+    color: #0f1725;
+    text-align: center;
+    font-size: 65px;
+    line-height: 1.2em;
+}
+
+/*次標題顏色設定*/
+h2{
+    color: #4b5421;
+    text-align: center;
+    border: #4b5421 1px dotted;
+    border-left: #4b5421 10px solid;
+    padding: 5px 20px;
+    margin-bottom: 0px;
+}
+
+h2 span{
+    color: #c21d18;
+    font-weight: bold;
+}
+
+h3{
+    color: #595959;
+    text-align: center;
+}
+
+/*內容標題設定*/
+dt{
+    color: #404040;
+    font-weight: bold;
+}
+
+/*引言區塊設定*/
+
+
+/*「更多介紹」連結設定*/
+
+/*專業經歷共通資料*/
+
